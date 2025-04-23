@@ -1,25 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>DevOps Portfolio</title>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Engineer Portfolio</title>
   <style>
-    body { font-family: sans-serif; margin: 40px; }
-    h1 { color: #007acc; }
-    a { text-decoration: none; color: #007acc; }
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #007acc;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      color: #333;
+      margin-top: 2rem;
+    }
+    ul {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm a DevOps Engineer 👨‍💻</h1>
-  <p>This is my portfolio site hosted on <strong>GitHub Pages</strong>.</p>
-  <h2>My Projects</h2>
-  <ul>
-    <li>🚀 CI/CD with GitHub Actions</li>
-    <li>🐳 Dockerized Node.js App</li>
-    <li>☸️ Kubernetes Cluster Deployment</li>
-    <li>📈 Monitoring with Prometheus + Grafana</li>
-  </ul>
-  <p><a href="https://github.com/YOUR_USERNAME" target="_blank">Visit my GitHub</a></p>
+  <div class="container">
+    <h1>👋 Hello, I'm a DevOps Engineer</h1>
+    <p>Welcome to my portfolio site hosted on <strong>GitHub Pages</strong>.</p>
+
+    <h2>🚧 Projects</h2>
+    <ul>
+      <li>✅ CI/CD Pipeline with GitHub Actions</li>
+      <li>🐳 Dockerized Microservices</li>
+      <li>☸️ Kubernetes Deployment & Helm Charts</li>
+      <li>📊 Monitoring with Prometheus + Grafana</li>
+      <li>🔐 Automated Security Scanning in CI/CD</li>
+    </ul>
+
+    <h2>📄 Resume & Links</h2>
+    <ul>
+      <li><a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub Profile</a></li>
+      <li><a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn</a></li>
+      <li><a href="resume.pdf" target="_blank">Download Resume (PDF)</a></li>
+    </ul>
+
+    <div class="footer">
+      © 2025 Your Name | Built with ❤️ and GitHub Pages
+    </div>
+  </div>
 </body>
 </html>
